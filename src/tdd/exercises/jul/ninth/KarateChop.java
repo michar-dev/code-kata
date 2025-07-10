@@ -5,6 +5,7 @@ public final class KarateChop {
     public int find(final int targetElement, final int[] array) {
         int left = 0;
         int right = array.length - 1;
+
         while (left <= right) {
             final int middle = (left + right) / 2;
             if (array[middle] == targetElement) {
